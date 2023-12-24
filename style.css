@@ -1,0 +1,117 @@
+.logo{
+    height: 50px;
+    width: 60px;
+}
+body{
+    background-color: rgba(138, 240, 230, 0.566);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    position: sticky;
+}
+.anch{
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.block{
+    float: right;
+    left: 1000px;
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: rgba(37, 34, 34, 0.888);
+    bottom: 0px;
+    text-align: center;
+    color:white;
+}
+.container{
+    min-height: 72vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    flex-direction: column;
+}
+#myprogressbar{
+    margin: 15px;
+    width: 50%;
+    
+}
+.bgimg{
+    height:72vh ;
+    width: 70vw;
+    position: absolute;
+    z-index: 999;
+
+}
+.songitem{
+    height:40px ;
+    width:300px ;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    background-color:rgba(212, 209, 243, 0.758);
+    color: black;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 4px;
+    border: 3px solid cornflowerblue;
+
+}
+.listt{
+    position: absolute;
+    z-index: 1000;
+}
+.timestamp{
+    margin: 0,23px;
+    cursor: pointer;
+}
+.lmlu{
+    border-radius: 80px;
+}
+.lmm{
+    border-radius: 10px;
+}
+.adc{
+    border-radius: 10px;
+}
+.sua{
+    border-radius:10px ;
+}
+.songinfo{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    padding: 4px;
+    font-weight: bold;
+    left: 360px;
+
+}
+.gif{
+    height: 35px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    border-radius: 15px;
+    border:2px solid azure;
+    margin: 4px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+
+
